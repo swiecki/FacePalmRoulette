@@ -18,7 +18,9 @@ class PhotosController extends AppController {
                                                          'conditions' => array('Photo.id' => $randomIds),
                                                          'order' => 'RAND()',
                                                          'limit' => 1)));
+                $this->layout = 'next';
 	}
+		
 
 	function view($id = null) {
 		if (!$id) {
