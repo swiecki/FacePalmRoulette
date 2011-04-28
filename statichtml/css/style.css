@@ -1,1 +1,25 @@
-
+body {
+	background:#0f0408 url('../img/bg.png') repeat-x;
+}
+header {
+	background:#ggg;
+	height:180px;
+}
+.maincontent {
+	background: #F6F0F5; /* old browsers */
+	background: -moz-linear-gradient(top, #F6F0F5 0%, #A29C9C 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F6F0F5), color-stop(100%,#A29C9C)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6F0F5', endColorstr='#A29C9C',GradientType=0 ); /* ie */
+	background: -o-linear-gradient(top, #F6F0F5 0%,#A29C9C 100%); /* opera */
+	height:573px;
+	width:700px;
+}
+footer {
+	background: #3E3E3E; /* old browsers */
+	background: -moz-linear-gradient(top, #3E3E3E 0%, #0B0B0B 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3E3E3E), color-stop(100%,#0B0B0B)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E3E3E', endColorstr='#0B0B0B',GradientType=0 ); /* ie */
+	background: -o-linear-gradient(top, #3E3E3E 0%,#0B0B0B 100%); /* opera */
+	height:124px;
+	margin-top:45px;
+}
